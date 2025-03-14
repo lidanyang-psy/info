@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "description": "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-  "homepage": "http://lidanyang-psy.github.io/info",
+  "homepage": "http://lidanyang-psy.github.io",
   "version": "0.2.0",
   "license": "MIT",
   "private": true,
@@ -17,7 +17,7 @@
     "start": "next start",
     "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
-    "deploy": "npm run custom-domain && node scripts/pages.js lidanyang-psy main",
+    "deploy": "npm run custom-domain && node scripts/pages.js lidanyang-psy.github.io main",
     "custom-domain": "node scripts/cname.js",
     "lint": "next lint"
   },
