@@ -6,7 +6,7 @@ const source = "config/profile.png" // Source image(s). `string`, `buffer` or ar
 const configuration = {
   path: "/", // Path for overriding default icons path. `string`
   appName: null, // Your application's name. `string`
-  appShortName: null, // Your application's short_name. `string`. Optional. If not set, appName will be used
+  appShortName: "Dr. Danyang Li", // Your application's short_name. `string`. Optional. If not set, appName will be used
   appDescription: null, // Your application's description. `string`
   developerName: null, // Your (or your developer's) name. `string`
   developerURL: null, // Your (or your developer's) URL. `string`
