@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faScroll, faExternalLinkAlt, faNewspaper } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
   name: "Danyang",
