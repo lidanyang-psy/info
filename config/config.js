@@ -26,10 +26,6 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
   ],
 }
 export const intro = {
@@ -54,7 +50,7 @@ export const intro = {
 export const about = {
   title: "About Me",
   description: [
-    "I am a Postdoctral Researcher at the University of Birmingham, UK. I graduated from the University of Bristol in 2024 with a Doctral degree in Social Psychology. I'm a certified therapist, National Career Development Association (NCDA) career development practitioner, and under training of Emotionally Focused Therapy.",
+    "I am an ESRC Postdoctoral Fellow at the Centre for Research on Self and Identity, University of Southampton. Previously, I worked as a Postdoctral Research Fellow at the University of Birmingham and before that I graduated from the University of Bristol in 2024 with a Doctral degree in Social Psychology. I'm a certified therapist, National Career Development Association (NCDA) career development practitioner, and under training of Emotionally Focused Therapy.",
     "My research broadly centres on the processes and mechanisms that drive adult attachment. Briefly, on the basis of information abstracted from consistent and long-term attachment relationships, individuals develop mental models of attachment, or attachment styles. A key feature of attachment styles is that they predictor how individuals respond to threat and deal with stress and distress. Much of my research over the years has been concerned with the way that attachment styles and attachment-relevant hormones influence thought, behaviour and feelings in interpersonal relationships and social life more generally.",
     "My current research projects focus on (1) developing digital health interventions for couples, especially on reducing negative attribution towards partners; (2) evaluating whether we can use chatbots to make people feel 'secure' in love; (3) exploring online dating patterns. If you’re interested in hearing more about my research, please navigate to the research page.",
     "While I currently primarily work in research, I continue to see clients remotely. I work with individuals and couples. I specialise in self exploration, communication problems in relationship and attribution intervention."
@@ -76,7 +72,7 @@ export const work = {
       icons: null,
     },
     {
-      title: "AI in Love:",
+      title: "AI in Love",
       description: ["To explore whether digital intervention and chatbots powered by generative artificial intelligence could be used to improve emotional and physical intimacy for couples. I am currently collaborating with researchers and relationship therapists to address how we can use AI chatbots in a safe and ethical way to improve access to relationship interventions for a wider population.",],
       icons: null,
     }
@@ -88,7 +84,7 @@ export const projects = {
   cards: [
     {
       title: "HARRT",
-      description: "Validation of a new assessment of hostile attribution bias in romantic relationships: The Hostile Attributions in Romantic Relationships Test.",
+      description: "Validation of a new assessment of hostile attribution bias in romantic relationships.",
       link: "https://doi.org/10.1111/jmft.12694",
       icons: [
         {
@@ -124,7 +120,7 @@ export const projects = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email.",
+  description: "Please do not hesitate to reach out directly by email.",
   buttons: [
     {
       title: "Email Me",
