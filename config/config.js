@@ -11,7 +11,11 @@ export const navigation = {
       link: "#about",
     },
     {
-      title: "Projects",
+      title: "Research Projects",
+      link: "#work",
+    },
+    {
+      title: "Research Impacts",
       link: "#projects",
     },
     {
@@ -85,6 +89,7 @@ export const projects = {
     {
       title: "HARRT",
       description: "Validation of a new assessment of hostile attribution bias in romantic relationships: The Hostile Attributions in Romantic Relationships Test.",
+      link: "https://doi.org/10.1111/jmft.12694",
       icons: [
         {
           icon: faScroll,
@@ -95,6 +100,7 @@ export const projects = {
     {
       title: "SPSP Community",
       description: "Feeling Secure Affects the Way You Interpret the World.",
+      link: "https://spsp.org/news/character-and-context-blog/li-attachment-attribution-style-feelings-of-security",
       icons: [
         {
           icon: faExternalLinkAlt,
@@ -105,10 +111,11 @@ export const projects = {
     {
       title: "The PsyPost",
       description: "Insecure attachment linked to a psychological phenomenon known as negative attribution bias.",
+      link: "https://www.psypost.org/insecure-attachment-linked-to-a-psychological-phenomenon-known-as-negative-attribution-bias/",
       icons: [
         {
           icon: faNewspaper,
-          link: "https://spsp.org/news/character-and-context-blog/li-attachment-attribution-style-feelings-of-security",
+          link: "https://www.psypost.org/insecure-attachment-linked-to-a-psychological-phenomenon-known-as-negative-attribution-bias/",
         },
       ]
     },
@@ -124,11 +131,11 @@ export const contact = {
       link: "mailto:danyang.li@bristol.ac.uk",
       isPrimary: true,
     },
-    {
-      title: "Schedule Meeting",
-      link: "/404",
-      isPrimary: false,
-    },
+    // {
+    //   title: "Schedule Meeting",
+    //   link: "/404",
+    //   isPrimary: false,
+    // },
   ]
 }
 
