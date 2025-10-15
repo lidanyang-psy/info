@@ -62,17 +62,7 @@ export const work = {
   cards: [
     {
       title: "Whether we correctly interpret partners?",
-      description: ["Insecure attachment orientation in adults and children and negative attribution bias: A meta-analysis. https://doi.org/10.1177/01461672221117690",
-        "Validation of a new assessment of hostile attribution bias in romantic relationships: The Hostile Attributions in Romantic Relationships Test. https://doi.org/10.1111/jmft.12694",
-        "",
-        "How hostile attribution bias affects attachment insecurity and relationship satisfaction during COVID pandemic, from the cross-cultural perspective",
-        "",
-        "Attachment orientations bias the attentional processing of images of relationship-relevant interactions, moderated by hostile attribution bias.",
-        "",
-        "Feeling Secure Affects the Way You Interpret the World. SPSP Community. https://spsp.org/news/character-and-context-blog/li-attachment-attribution-style-feelings-of-security",
-        "",
-        "Insecure attachment linked to a psychological phenomenon known as negative attribution bias. The PsyPost. https://www.psypost.org/insecure-attachment-linked-to-a-psychological-phenomenon-known-as-negative-attribution-bias/"],
-
+      description: ["My research used attachment-related (close emotional bonds with important others) experiments and attribution-related (how people explain causes) principles to better understand romantic relationship quality. The work contributes to integrating attachment security enhancement with cognitive restructuring techniques — ultimately aiming to help individuals build healthier and more secure relationships.",],
       icons: null,
     },
     {
@@ -80,34 +70,45 @@ export const work = {
       description: ["Do Adult Attachment Orientations Influence the Experience of Ghosting or Being Ghosted?",
         "How secure priming of adult attachment affects the Ghosting-related behaviours in romantic contexts."],
       icons: null,
+    },
+    {
+      title: "AI in Love:",
+      description: ["To explore whether digital intervention and chatbots powered by generative artificial intelligence could be used to improve emotional and physical intimacy for couples. I am currently collaborating with researchers and relationship therapists to address how we can use AI chatbots in a safe and ethical way to improve access to relationship interventions for a wider population.",],
+      icons: null,
     }
   ],
 }
 
 export const projects = {
-  title: "Projects",
+  title: "Research Impacts",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "HARRT",
+      description: "Validation of a new assessment of hostile attribution bias in romantic relationships: The Hostile Attributions in Romantic Relationships Test.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          icon: faScroll,
+          link: "https://doi.org/10.1111/jmft.12694",
         },
       ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: "SPSP Community",
+      description: "Feeling Secure Affects the Way You Interpret the World.",
       icons: [
         {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          icon: faExternalLinkAlt,
+          link: "https://spsp.org/news/character-and-context-blog/li-attachment-attribution-style-feelings-of-security",
+        },
+      ]
+    },
+    {
+      title: "The PsyPost",
+      description: "Insecure attachment linked to a psychological phenomenon known as negative attribution bias.",
+      icons: [
+        {
+          icon: faNewspaper,
+          link: "https://spsp.org/news/character-and-context-blog/li-attachment-attribution-style-feelings-of-security",
         },
       ]
     },
